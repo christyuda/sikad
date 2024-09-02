@@ -1,0 +1,2 @@
+# sikad
+sistem akademik
