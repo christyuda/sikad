@@ -1,9 +1,28 @@
-# Dependencies
-.psci_modules
-.spago
-bower_components
-node_modules
+# Ignore compiled object files
+*.o
+*.ko
+*.obj
+*.elf
 
-# Generated files
-.psci
-output
+# Ignore executables
+*.exe
+*.out
+*.app
+
+# Ignore build directories
+build/
+dist/
+bin/
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+.env
